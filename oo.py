@@ -3,31 +3,36 @@
 1. What are the three main design advantages that object orientation
    can provide? Explain each concept.
 
-(replace this with your answer)
+Abstraction
+we dont have to understand how avery function works
+
+Encapsulation
+Keeping everything “together”
+functions live close to their classes
+
+Polymorphism
+Interchangeability of components
 
 
-containment
-polymorphasim
 2. What is a class?
 
-(replace this with your answer)
+Type of thing like a blueprint, that can contain individual occurrences
 
 
 3. What is a method?
 
-(replace this with your answer)
+a function that works within a certain class
 
 
 4. What is an instance in object orientation?
 
-(replace this with your answer)
+specifies what is neccary for defining a class
 
 
 5. How is a class attribute different than an instance attribute?
    Give an example of when you might use each.
+a class attrbuite is shared by ALL instances while an instance attribute is only for that attribute
 
-(replace this with your answer)
-"""
 
 
 """2. Road Class"""
@@ -85,10 +90,7 @@ class Book(object):
         self.title = title
         self.author = author
 class Library():
-    #all_books = {}
-    def __init__(self, books):
-        self.books = []
-
+    books = []
 
     def create_and_add_book(self, title, author):
 
