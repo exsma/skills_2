@@ -31,11 +31,7 @@ specifies what is neccary for defining a class
 
 5. How is a class attribute different than an instance attribute?
    Give an example of when you might use each.
-a class attrbuite is shared by ALL instances while an instance attribute is only for that attribute
-
-
-
-"""2. Road Class"""
+a class attrbuite is shared by ALL instances while an instance attribute is only for that attribute2. Road Class"""
 class Road:
 
     def __init__(self, num_lanes = 2, speed_limit= 25):
